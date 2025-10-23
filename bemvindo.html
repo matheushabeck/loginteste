@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para a página de bem-vindo */
+        .welcome-card {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        .welcome-card h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        .welcome-card p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .welcome-card .btn-logout {
+            background-color: #dc3545; /* Cor de botão de logout (vermelho) */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none; /* Para parecer um botão se for um link */
+        }
+        .welcome-card .btn-logout:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-card">
+            <h2>Bem-vindo(a) ao nosso sistema!</h2>
+            <p>Seu login foi realizado com sucesso.</p>
+            <p>Aproveite todas as funcionalidades!</p>
+            <a href="login.html" class="btn-logout">Sair</a>
+        </div>
+    </div>
+</body>
+</html>
